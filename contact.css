@@ -1,0 +1,13 @@
+/* Contact page specific styles - currently minimal as most styles come from style.css */
+
+/* Responsive adjustments for contact form */
+@media (max-width: 600px) {
+    #contact-section form .form-row {
+        flex-direction: column;
+    }
+    #contact-section form .form-row input[type="text"],
+    #contact-section form .form-row input[type="email"] {
+        flex: 1 1 100%;
+        margin-bottom: 15px;
+    }
+}
